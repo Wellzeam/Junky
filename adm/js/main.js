@@ -1,7 +1,7 @@
 "use strict";
 jQuery(document).ready(function ($) {
 
-//for Preloader
+    //for Preloader
 
     $(window).load(function () {
         $("#loading").fadeOut(500);
@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
 
 
 
-// scroll Up
+    // scroll Up
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 600) {
@@ -19,7 +19,7 @@ jQuery(document).ready(function ($) {
         }
     });
     $('.scrollup').click(function () {
-        $("html, body").animate({scrollTop: 0}, 1000);
+        $("html, body").animate({ scrollTop: 0 }, 1000);
         return false;
     });
 

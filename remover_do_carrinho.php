@@ -6,5 +6,3 @@ unset($sql);
 $sql = "DELETE FROM carrinho WHERE id_usuario = '$id_usuario' AND id = '$idRemover'";
 mysql_query($sql);
 header('Location:Carrinho.php');
-
-?>
